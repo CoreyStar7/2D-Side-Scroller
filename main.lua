@@ -171,7 +171,7 @@ function love.load()
 						print("Starting Game...")
 					end
 					-- Tweening stuff before current state change!
-					tween(4, nil, {y=1000}, 'linear')
+					tween(4, buttons, {y=1000}, 'linear')
 					currentState = Start
 					sounds.click:play()
 					-- Clear canvas and show loading screen
